@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Anton&family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Black+Ops+One&family=Gloock&family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&family=Iceland&family=Imprima&family=Inconsolata:wght@200..900&family=Instrument+Serif:ital@0;1&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Kalnia:wght@100..700&family=LXGW+Marker+Gothic&family=Lalezar&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lobster&family=M+PLUS+1+Code:wght@100..700&family=Matangi:wght@300..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Bubbles&family=Sacramento&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+.main {
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  color: white;
+  font-family: 'black ops one', monospace;
+  text-align: center;
+  transition: opacity 0.5s ease-in-out;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+  justify-content: center;
+  top: 7rem;
+}
+
+.fade {
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header {
+  font-size: 2rem;
+  color: #00ffee;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 8rem;
+  font-weight: bold;
+  color: #ff66cc;
+  margin-bottom: 0.5rem;
+}
+
+.info {
+  font-size: 25px;
+  line-height: 1.6;
+  width: 38rem;
+  padding: 0 1rem;
+}

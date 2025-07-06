@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Anton&family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Black+Ops+One&family=Gloock&family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&family=Iceland&family=Imprima&family=Inconsolata:wght@200..900&family=Instrument+Serif:ital@0;1&family=Julius+Sans+One&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Kalnia:wght@100..700&family=LXGW+Marker+Gothic&family=Lalezar&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libertinus+Mono&family=Lobster&family=M+PLUS+1+Code:wght@100..700&family=Matangi:wght@300..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Bubbles&family=Sacramento&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.main{
+  background-image: url('../../assets/avengers21.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'playfair display', sans-serif;
+}
+
+.icon{
+  position: absolute;
+  right: 2rem;
+  top: -5rem;
+}
+
+.spidey{
+  height: 40rem;
+  width: 20rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
+  border: 1px solid black;
+  width: 30rem;
+  height: 40rem;
+  padding: 4rem 8rem 4rem 8rem;
+  justify-content: center;
+}
+
+.options{
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  font-size: 18px;
+  color: #0000e6
+}
+
+.question{
+  margin-bottom: 2rem;
+  font-size: 20px;
+  color:#000066;
+  font-weight: 700;
+  
+}
+.label{
+  margin-right: 20px;
+}
+
+.next{
+  padding: 20px;
+  color: white;
+  background-color: #000066;
+  font-family: 'playfair display', sans-serif;
+  border-radius: 18px;
+  font-size: 20px;
+
+}
+.next:hover{
+  cursor: pointer;
+}
+.next:active{
+  background-color: #000033;
+}

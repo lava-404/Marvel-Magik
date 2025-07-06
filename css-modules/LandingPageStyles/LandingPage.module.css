@@ -1,0 +1,14 @@
+.mainnn{
+  background-image: url('../../assets/avengers2.jpg');
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.main2{
+  height: 100vh;
+}

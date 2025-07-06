@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Anton&family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Black+Ops+One&family=Gloock&family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&family=Iceland&family=Imprima&family=Inconsolata:wght@200..900&family=Instrument+Serif:ital@0;1&family=Julius+Sans+One&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Kalnia:wght@100..700&family=LXGW+Marker+Gothic&family=Lalezar&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libertinus+Mono&family=Lobster&family=M+PLUS+1+Code:wght@100..700&family=Matangi:wght@300..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Bubbles&family=Sacramento&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+.main{
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url('../../assets/image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  margin: 0;
+  padding: 0;
+  font-family: 'playfair display', sans-serif;
+}
+
+.flex1{
+  
+  backdrop-filter: blur(10px); /* actual blur */
+  -webkit-backdrop-filter: blur(80px);
+  color: black;
+  width: 51rem;
+  z-index: 5;
+  row-gap:3rem;
+
+}
+.flex2{
+  backdrop-filter: blur(10px); /* actual blur */
+  -webkit-backdrop-filter: blur(80px);
+  z-index: 5;
+}
+  
+
+.getStarted{
+  font-size: 240px;
+  color: white;
+  position: relative;
+  left: 30rem;
+  top: 10rem;
+  line-height: 15rem;
+  font-weight: 700;
+  color: white;
+  
+}
+
+.get{
+  position: inherit;
+  left: -10.45rem;
+
+}
+
+.started{
+  position: relative;
+  left: -22rem;
+  font-style: italic;
+  padding-bottom: 2rem;
+}
+.tagline{
+  color: white;
+  font-size: 18px;
+  position: relative;
+  top: 13rem;
+  width: 43rem;
+  left: 7rem;
+  line-height: 30px;
+  margin-bottom: 3rem;
+}
+
+.sum, .started {
+
+  z-index: 6;
+  -webkit-text-stroke: 0.5px white; /* 👈 here's the outline */
+}
+
+.cta{
+  position: absolute;
+  left: 18rem;
+  bottom: 6rem;
+  padding: 1rem 2.5rem;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+  transition: 0.3s ease;
+  z-index: 10;
+  
+}
+
+.cta:hover{
+  background-color: rgba(255, 255, 255, 0.25);
+  color: black
+
+}
+
+.something{
+  position: absolute;
+  top: 10rem;
+  left: 60rem;
+  z-index: -1;
+}

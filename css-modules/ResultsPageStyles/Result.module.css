@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Anton&family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Black+Ops+One&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Gloock&family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&family=Iceland&family=Imprima&family=Inconsolata:wght@200..900&family=Instrument+Serif:ital@0;1&family=Julius+Sans+One&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Kalnia:wght@100..700&family=LXGW+Marker+Gothic&family=Lalezar&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libertinus+Mono&family=Lobster&family=M+PLUS+1+Code:wght@100..700&family=Matangi:wght@300..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Rubik+Bubbles&family=Sacramento&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Anton&family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Black+Ops+One&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Gloock&family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&family=Iceland&family=Imprima&family=Inconsolata:wght@200..900&family=Instrument+Serif:ital@0;1&family=Julius+Sans+One&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Kalnia:wght@100..700&family=LXGW+Marker+Gothic&family=Lalezar&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libertinus+Mono&family=Lobster&family=M+PLUS+1+Code:wght@100..700&family=Matangi:wght@300..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Rubik+Bubbles&family=Sacramento&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Anton&family=Audiowide&family=Bitcount+Grid+Double:wght@100..900&family=Black+Ops+One&family=Caveat:wght@400..700&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Gloock&family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&family=Iceland&family=Imprima&family=Inconsolata:wght@200..900&family=Instrument+Serif:ital@0;1&family=Julius+Sans+One&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Kalnia:wght@100..700&family=LXGW+Marker+Gothic&family=Lalezar&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libertinus+Mono&family=Lobster&family=M+PLUS+1+Code:wght@100..700&family=Matangi:wght@300..900&family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Rubik+Bubbles&family=Sacramento&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* 🎞️ Animations */
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes riseFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes dropFromTop {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes moveDottedLine {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+/* 🖼️ Layout + Styles */
+
+.flex1 {
+  height: 200vh;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  z-index: 0;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Playfair Display', serif;
+}
+
+
+/* 🔥 "DEADPOOL" character text */
+.char {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 290px;
+  font-style: italic;
+  font-weight: 700;
+  z-index: 2;
+  animation: slideInFromRight 1.2s ease-out forwards;
+  text-align: center;
+  line-height: 350px;;
+}
+
+
+/* 🧍‍♂️ Character image container (rises from bottom) */
+.charImg {
+  z-index: 1;
+  margin-top: -47rem;
+  animation: riseFromBottom 1.2s ease-out forwards;
+}
+
+.charImage {
+  width: 90%;
+  height: 60%;
+}
+
+
+/* 🧠 Intro text (drops from top) */
+.intro {
+  z-index: 2;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 16rem;
+  font-weight: 300;
+  font-family: 'Cormorant Garamond', serif;
+  animation: dropFromTop 1s ease-out forwards;
+}
+
+
+/* 🩻 Dotted scanline animation */
+.dotted{
+  z-index: 5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50rem;
+  color: white;
+  margin-top: 2rem;;
+  transform: rotate(3deg);
+  height: 10px;
+  background-image: url('../../assets/dotted.png');
+  background-position: center;
+}
+
+.profile{
+  width: 60rem;
+  border-radius: 40px;
+  color: black;
+  margin-top: -40rem;
+  z-index: 6;
+  height: 45rem;
+  display: flex;
+  column-gap: 1rem;
+  background: linear-gradient(to bottom, #ffffe6, #b3b3b3);
+
+}
+.sec1{
+
+  flex: 4;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.sec2{
+  
+  flex: 6;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.cardImg{
+  width: 100%;
+  height: 90%;
+  padding-top: 1rem;
+ 
+}
+.cardImgDiv{
+  flex: 9;
+  background-color: white;
+  border-radius: 40px;;
+  margin: 1rem;
+  border: 2px solid black;
+  border-radius: 40px;;
+}
+.badge{
+  flex: 1;
+ 
+}
+.shield{
+  width: 125%;
+  height: 60%;
+  border: 2px solid black;
+  border-radius: 40px;
+  margin-left: -2rem;
+}
+.stats{
+  flex: 3
+}
+.cardInfo{
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+}
+.head{
+  font-family: 'orbitron', sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.mainCard{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  margin-left: -24rem;
+  margin-top: 1rem;
+  font-size: 25px;
+  padding-left: 20rem;
+  width: 30rem;
+}
+.name,.signature,.heroLabel,.identity{
+  margin-top: -1rem;
+  font-size: 12px;
+}
+.sign,.realName,.hero,.powers{
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  display: block;
+} 
+
+.sign{
+  font-family: 'caveat', sans-serif;
+  font-size: 35px;
+}
+.stats{
+
+  display: flex;
+  margin-top:-5rem;
+  
+  
+}
+.statsMain{
+  flex:6;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  font-weight: 100;
+  margin-left: 10px;
+
+}
+.statsNum{
+  line-height: 50px;
+  font-size: 25px;
+}
+.finger{
+  width: 60%;
+  height: 60%;
+
+}
+.statsMain2{
+  flex: 4;
+  flex-direction: column;
+  row-gap: 15px;
+
+}
+.fingerLabel{
+  margin-bottom: 15px;
+  text-align: center;
+  margin-left: -88px;
+}
+.finger{
+  border-radius: 40px;
+  border: 1px solid black
+}
+.signature{
+  margin-bottom: 5px;
+}
+.id,.statsHead,.fingerLabel{
+  font-weight: 700;
+  text-decoration: underline;
+}
+.summaryDiv{
+  position: absolute;
+  top: 120rem;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252,252, 252);
+  opacity: 0.6;
+  z-index: 15;
+  height: 40rem;
+
+}
+.page{
+  background-color: black;
+  height: 300vh;
+}
+.summary{
+  color: black;
+  text-align: center;
+  line-height: 50px;
+  margin: 15rem;
+  font-family: 'playfair display', sans-serif;
+}
