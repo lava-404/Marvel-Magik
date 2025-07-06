@@ -3,18 +3,18 @@ import Branding from "../components/LandingPageComponents/Branding"
 import Header from "../components/LandingPageComponents/Header"
 import styles from '../css-modules/LandingPageStyles/LandingPage.module.css'
 
-
-import spiderman from '/assets/spiderman.jpg'
-import groot from '/assets/groot.jpg'
-import loki from '/assets/loki.jpg'
-import thanos from '/assets/thanos.jpg'
 import { useEffect } from "react"
 
 import { useState } from "react"
 import FunFacts from "../components/LandingPageComponents/FunFacts"
 
 const LandingPage = () => {
-  const array = [spiderman, groot, thanos]
+    const array = [
+      "/assets/spiderman.jpg",
+      "/assets/groot.jpg",
+      "/assets/thanos.jpg"
+    ]
+  
   const [bgIndex, setBgIndex] = useState(0)
 
     useEffect(()=>{
