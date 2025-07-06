@@ -130,7 +130,7 @@
   margin-top: 2rem;;
   transform: rotate(3deg);
   height: 10px;
-  background-image: url('../../assets/dotted.png');
+  background-image: url('/assets/dotted.png');
   background-position: center;
 }
 

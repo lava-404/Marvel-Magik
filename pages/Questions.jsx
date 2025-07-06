@@ -124,7 +124,7 @@ const Questions = () => {
   return (
     <div className={styles.main}>
       <div className={styles.icon}>
-        <img className={styles.spidey} src="../assets/spidey.png" />
+        <img className={styles.spidey} src="/assets/spidey.png" />
       </div>
 
       {response && response.options ? (

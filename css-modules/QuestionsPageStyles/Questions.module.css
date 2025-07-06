@@ -2,7 +2,7 @@
 
 
 .main{
-  background-image: url('../../assets/avengers21.jpg');
+  background-image: url('/assets/avengers21.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

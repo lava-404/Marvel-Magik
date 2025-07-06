@@ -4,10 +4,10 @@ import Header from "../components/LandingPageComponents/Header"
 import styles from '../css-modules/LandingPageStyles/LandingPage.module.css'
 
 
-import spiderman from '../assets/spiderman.jpg'
-import groot from '../assets/groot.jpg'
-import loki from '../assets/loki.jpg'
-import thanos from '../assets/thanos.jpg'
+import spiderman from '/assets/spiderman.jpg'
+import groot from '/assets/groot.jpg'
+import loki from '/assets/loki.jpg'
+import thanos from '/assets/thanos.jpg'
 import { useEffect } from "react"
 
 import { useState } from "react"

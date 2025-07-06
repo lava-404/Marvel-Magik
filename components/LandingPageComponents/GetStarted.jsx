@@ -10,7 +10,7 @@ const GetStarted = () => {
 
   const navigate = useNavigate()
   const handleMusic = () => {
-    const audio = new Audio("../../assets/jarvis-intro1-101soundboards.mp3");
+    const audio = new Audio("/assets/jarvis-intro1-101soundboards.mp3");
     audio.volume = 0.4;
     audio.play();
     console.log('play')

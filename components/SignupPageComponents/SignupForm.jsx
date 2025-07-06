@@ -49,7 +49,7 @@ const SignupForm = () => {
   return (
     <div className={styles.mainn}>
       <form className={styles.form} onSubmit={(e) => e.preventDefault()}>
-        <img className={styles.imgs1} src="../../assets/avengers.jpg" alt="Avengers Poster" />
+        <img className={styles.imgs1} src="/assets/avengers.jpg" alt="Avengers Poster" />
         <div className={styles.textholder}>
           <input
             type="email"

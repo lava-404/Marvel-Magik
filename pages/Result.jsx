@@ -55,11 +55,11 @@ const Result = () => {
        <div className={styles.intro}>Variant Detected: Psych Profile Matches Subject </div>
        <div className={styles.char}>{splitCamelCase(mainChar)}</div>
        <div className={styles.dotted}></div>
-       <div className={styles.charImg}><img className={styles.charImage}src="../assets/deadpool2.png"></img></div>
+       <div className={styles.charImg}><img className={styles.charImage}src="/assets/deadpool2.png"></img></div>
        <div className={styles.profile}>
          <div className={styles.sec1}>
-           <div className={styles.cardImgDiv}><img src={`../assets/characters/${mainChar}.png`} alt={mainChar} className={styles.cardImg}></img></div>
-           <div className={styles.badge}><img className={styles.shield} src="../assets/shield.jpg"></img></div>
+           <div className={styles.cardImgDiv}><img src={`/assets/characters/${mainChar}.png`} alt={mainChar} className={styles.cardImg}></img></div>
+           <div className={styles.badge}><img className={styles.shield} src="/assets/shield.jpg"></img></div>
          </div>
 
          <div className={styles.sec2}>
@@ -88,7 +88,7 @@ const Result = () => {
              </div>
              <div className={styles.statsMain2}>
                <div className={styles.fingerLabel}>FINGERPRINT</div>
-               <div className={styles.fingerDiv}><img className={styles.finger} src="../assets/finger.jpg"></img></div>
+               <div className={styles.fingerDiv}><img className={styles.finger} src="/assets/finger.jpg"></img></div>
              </div>
            </div>
          </div>

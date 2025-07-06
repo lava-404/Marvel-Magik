@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url('../../assets/avengers3.jpg');
+  background-image: url('/assets/avengers3.jpg');
   background-size: cover;
   background-position: center;
 
