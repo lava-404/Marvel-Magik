@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import styles from '../../css-modules/LandingPageStyles/FunFacts.module.css';
+import styles from '../../css-modules/LandingPageStyles/Funfacts.module.css';
 
 const FunFacts = () => {
   const facts = [
