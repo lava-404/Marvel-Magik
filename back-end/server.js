@@ -4,9 +4,10 @@ const cors = require('cors')
 const questionsRoute = require('./routes/questionsRoute')
 const SignupRoute = require('./routes/SignupRoute')
 const SummaryRoute = require('./routes/SummaryRoute.js')
+require('dotenv').config();
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017', {
+mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
