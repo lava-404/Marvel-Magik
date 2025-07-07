@@ -22,7 +22,7 @@ const SignupForm = () => {
       };
 
 
-      const response = await fetch('http://localhost:5667/signup/google-auth', {
+      const response = await fetch('https://marvelmagikbackend.onrender.com/signup/google-auth', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)

@@ -22,7 +22,7 @@ const Result = () => {
 
  useEffect(()=>{
    const LoadSummary = async () => {
-     const response = await fetch('http://localhost:5667/summary',{
+     const response = await fetch('https://marvelmagikbackend.onrender.com/summary',{
        method: "POST",
        headers: {"Content-Type" : "application/json"},
        body: JSON.stringify({
