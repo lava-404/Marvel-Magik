@@ -27,7 +27,7 @@ const Questions = () => {
 
   // 1️⃣ Fetch questions from backend
   const generateQuestions = async () => {
-    const data = await fetch('http://localhost:5667/questions', {
+    const data = await fetch('https://marvelmagikbackend.onrender.com/questions', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
