@@ -78,6 +78,15 @@
   font-family: 'Playfair Display', serif;
 }
 
+@media (max-width: 768px) {
+  .flex1 {
+    height: auto;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    background-attachment: scroll;
+  }
+}
+
 
 /* 🔥 "DEADPOOL" character text */
 .char {
@@ -90,6 +99,14 @@
   animation: slideInFromRight 1.2s ease-out forwards;
   text-align: center;
   line-height: 350px;;
+}
+
+@media (max-width: 768px) {
+  .char {
+    font-size: 80px;
+    line-height: 90px;
+    margin-bottom: 1rem;
+  }
 }
 
 
@@ -105,6 +122,18 @@
   height: 60%;
 }
 
+@media (max-width: 768px) {
+  .charImg {
+    margin-top: -15rem;
+  }
+
+  .charImage {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+  }
+}
+
 
 /* 🧠 Intro text (drops from top) */
 .intro {
@@ -116,6 +145,14 @@
   font-weight: 300;
   font-family: 'Cormorant Garamond', serif;
   animation: dropFromTop 1s ease-out forwards;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    font-size: 24px;
+    margin-top: 1rem;
+    padding: 0 1rem;
+  }
 }
 
 
@@ -158,17 +195,37 @@
 }
 
 .sec2{
-  
+
   flex: 6;
   border-radius: 40px;
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 768px) {
+  .profile {
+    width: 95%;
+    max-width: 100%;
+    margin-top: 1rem;
+    height: auto;
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+
+  .sec1,
+  .sec2 {
+    flex: none;
+    width: 100%;
+  }
+}
 .cardImg{
   width: 100%;
   height: 90%;
   padding-top: 1rem;
- 
+
 }
 .cardImgDiv{
   flex: 9;
@@ -180,7 +237,7 @@
 }
 .badge{
   flex: 1;
- 
+
 }
 .shield{
   width: 125%;
@@ -188,6 +245,25 @@
   border: 2px solid black;
   border-radius: 40px;
   margin-left: -2rem;
+}
+
+@media (max-width: 768px) {
+  .cardImg {
+    height: 200px;
+    padding-top: 0.5rem;
+  }
+
+  .cardImgDiv {
+    margin: 0.5rem;
+    border-radius: 20px;
+  }
+
+  .shield {
+    width: 100%;
+    height: 150px;
+    margin-left: 0;
+    border-radius: 15px;
+  }
 }
 .stats{
   flex: 3
@@ -215,6 +291,25 @@
   padding-left: 20rem;
   width: 30rem;
 }
+
+@media (max-width: 768px) {
+  .cardInfo {
+    row-gap: 1rem;
+  }
+
+  .head {
+    font-size: 28px;
+  }
+
+  .mainCard {
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+    font-size: 14px;
+    row-gap: 10px;
+    margin-top: 0.5rem;
+  }
+}
 .name,.signature,.heroLabel,.identity{
   margin-top: -1rem;
   font-size: 12px;
@@ -233,8 +328,8 @@
 
   display: flex;
   margin-top:-5rem;
-  
-  
+
+
 }
 .statsMain{
   flex:6;
@@ -264,6 +359,43 @@
   margin-bottom: 15px;
   text-align: center;
   margin-left: -88px;
+}
+
+@media (max-width: 768px) {
+  .stats {
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .statsMain {
+    flex: none;
+    width: 100%;
+    row-gap: 10px;
+    margin-left: 0;
+  }
+
+  .statsNum {
+    line-height: 30px;
+    font-size: 14px;
+  }
+
+  .statsMain2 {
+    flex: none;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .fingerLabel {
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  .finger {
+    width: 150px;
+    height: 150px;
+  }
 }
 .finger{
   border-radius: 40px;
@@ -299,4 +431,26 @@
   line-height: 50px;
   margin: 15rem;
   font-family: 'playfair display', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .summaryDiv {
+    position: relative;
+    top: auto;
+    height: auto;
+    min-height: auto;
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .page {
+    height: auto;
+    min-height: auto;
+  }
+
+  .summary {
+    line-height: 1.6;
+    margin: 1rem;
+    font-size: 14px;
+  }
 }

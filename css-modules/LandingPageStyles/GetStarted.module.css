@@ -49,3 +49,24 @@ top: -8rem;
 .button:active{
   background-color: #330033
 }
+
+@media (max-width: 768px) {
+  .button1 {
+    width: 90%;
+    max-width: 250px;
+    height: 3rem;
+    font-size: 16px;
+    top: -5rem;
+  }
+
+  .main {
+    top: auto;
+  }
+
+  .glowText {
+    line-height: 30px;
+    font-size: 14px;
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+  }
+}

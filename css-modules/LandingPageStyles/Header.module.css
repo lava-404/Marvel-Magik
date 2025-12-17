@@ -32,3 +32,20 @@
 .tag:hover{
   text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+  .main {
+    height: 4rem;
+    font-size: 16px;
+    padding: 0 8px;
+  }
+
+  .flex {
+    gap: 8px;
+  }
+
+  .tag {
+    padding: 8px;
+    font-size: 14px;
+  }
+}

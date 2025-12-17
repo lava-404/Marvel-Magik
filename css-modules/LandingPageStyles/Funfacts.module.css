@@ -55,3 +55,30 @@
   width: 38rem;
   padding: 0 1rem;
 }
+
+@media (max-width: 768px) {
+  .main {
+    width: 90%;
+    padding: 1.5rem;
+    height: auto;
+    row-gap: 20px;
+    top: 2rem;
+  }
+
+  .header {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .info {
+    font-size: 14px;
+    line-height: 1.5;
+    width: 100%;
+    padding: 0;
+  }
+}

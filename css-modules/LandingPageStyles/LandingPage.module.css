@@ -12,3 +12,12 @@
 .main2{
   height: 100vh;
 }
+
+@media (max-width: 768px) {
+  .mainnn,
+  .main2 {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  }
+}

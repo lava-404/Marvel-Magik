@@ -48,7 +48,7 @@
   font-size: 20px;
   color:#000066;
   font-weight: 700;
-  
+
 }
 .label{
   margin-right: 20px;
@@ -68,4 +68,53 @@
 }
 .next:active{
   background-color: #000033;
+}
+
+@media (max-width: 768px) {
+  .main {
+    height: auto;
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    background-size: cover;
+  }
+
+  .icon {
+    position: relative;
+    right: auto;
+    top: auto;
+    margin-bottom: 1.5rem;
+  }
+
+  .spidey {
+    height: 250px;
+    width: 140px;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 350px;
+    height: auto;
+    padding: 2rem 1.5rem;
+  }
+
+  .options {
+    row-gap: 0.75rem;
+    font-size: 16px;
+  }
+
+  .question {
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+  }
+
+  .label {
+    margin-right: 15px;
+    font-size: 14px;
+  }
+
+  .next {
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+  }
 }

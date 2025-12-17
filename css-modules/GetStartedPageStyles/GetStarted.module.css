@@ -103,3 +103,75 @@
   left: 60rem;
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  .main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 1rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .flex1 {
+    width: 100%;
+    max-width: 500px;
+    row-gap: 1.5rem;
+    position: relative;
+    top: auto;
+    left: auto;
+  }
+
+  .flex2 {
+    display: none;
+  }
+
+  .getStarted {
+    font-size: 60px;
+    position: relative;
+    left: 0;
+    top: 0;
+    line-height: 70px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .get {
+    left: 0;
+    position: relative;
+  }
+
+  .started {
+    left: 0;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+
+  .tagline {
+    position: relative;
+    top: 0;
+    width: 100%;
+    left: 0;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+
+  .cta {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    width: 100%;
+    max-width: 300px;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .something {
+    display: none;
+  }
+}

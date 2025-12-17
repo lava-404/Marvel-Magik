@@ -22,7 +22,7 @@
   font-family: 'playfair display', sans-serif;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
-  
+
 }
 
 .brand {
@@ -35,16 +35,37 @@
 
 .hero{
   font-size: 25px;
-  
+
   margin-top: -3rem
 }
 
 .tagline {
-  
+
   font-size: 20px;
   font-family: 'audiowide', sans-serif;
   text-align: center;
   line-height: 40px;
   margin-top: 4rem;
   margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .brand {
+    font-size: 60px;
+    margin-bottom: 1rem;
+    margin-top: -5rem;
+  }
+
+  .hero {
+    font-size: 16px;
+    margin-top: -1rem;
+  }
+
+  .tagline {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0 15px;
+  }
 }
