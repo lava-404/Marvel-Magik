@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 const GetStarted = () => {
  
   const [ani, setAni] = useState(false)
+  const [onMobile, setOnMobile] = useState(false);
    
 
   const navigate = useNavigate()
@@ -26,18 +27,29 @@ const GetStarted = () => {
     }
    },[ani, navigate]) ;
 
+   useEffect(() => {
+    const checkMobile = () => {
+      setOnMobile(window.innerWidth <= 768);
+    };
+  
+    checkMobile(); // run on mount
+    window.addEventListener("resize", checkMobile);
+  
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
+
   return(
     <div className={styles.main}>
-      <button className={styles.button1} onClick={handleMusic}>Sign In To Initiate Personality Sequence</button>
+      <button className={styles.button1} onClick={handleMusic} >{onMobile ? "Sign In" : "Sign In To Initiate Personality Sequence"}</button>
   
-      { ani && (
+      { ani && !onMobile && (
         
          <div className={styles.glowText}>
          <TypeAnimation
            sequence={[
-             "Running J.A.R.V.I.S. personality algorithm. Proceeding to analyze cognitive patterns, hero potential, and subtle character flaws",
-             500,
-           ]}
+            "Running J.A.R.V.I.S. personality algorithm. Proceeding to analyze cognitive patterns, hero potential, and subtle character flaws",
+            500,
+          ]}
            speed={50}
            style={{ 
              fontSize: '20px', 
