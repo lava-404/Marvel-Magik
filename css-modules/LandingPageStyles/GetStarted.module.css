@@ -52,8 +52,7 @@ top: -8rem;
 
 @media (max-width: 768px) {
   .button1 {
-    width: 90%;
-    max-width: 250px;
+    width: 2rem;
     height: 3rem;
     font-size: 16px;
     top: -5rem;
